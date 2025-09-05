@@ -1,7 +1,10 @@
-name: Bug Report
+name: 🐞 Bug Report
 description: Report a bug in one of the components
-title: "[BUG] "
+title: "[BUG]: "
 labels: bug
+assignees:
+  - aldaydev
+
 body:
   - type: dropdown
     id: component

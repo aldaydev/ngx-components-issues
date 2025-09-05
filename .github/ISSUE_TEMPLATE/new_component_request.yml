@@ -1,8 +1,9 @@
 name: "💡 New Component Request"
 description: Suggest a brand new Angular component to be added to the library.
-title: "[Component Request]: "
-labels: ["new-component", "enhancement"]
-assignees: []
+title: "[COMPONENT REQUEST]: "
+labels: new-component
+assignees:
+  - aldaydev
 
 body:
   - type: markdown

@@ -1,7 +1,10 @@
 name: Feature Request
 description: Suggest a new feature or improvement
-title: "[FEATURE] "
+title: "[FEATURE REQUEST]: "
 labels: enhancement
+assignees:
+  - aldaydev
+
 body:
   - type: dropdown
     id: component
