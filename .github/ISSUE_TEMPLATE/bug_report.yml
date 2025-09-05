@@ -1,0 +1,27 @@
+name: Bug Report
+description: Report a bug in one of the components
+title: "[BUG] "
+labels: bug
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Select the component your issue is about
+      options:
+        - menu-toggler
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the problem
+      description: Provide a clear description of the bug
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Step by step instructions to reproduce the bug
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen

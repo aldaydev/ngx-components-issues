@@ -1,0 +1,22 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+title: "[FEATURE] "
+labels: enhancement
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Select the component this feature is for
+      options:
+        - menu-toggler
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your idea
+      description: Provide a detailed description of the feature or improvement
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Benefit
+      description: How this feature will help users or improve the component

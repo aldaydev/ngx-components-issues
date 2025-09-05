@@ -1,0 +1,58 @@
+name: "💡 New Component Request"
+description: Suggest a brand new Angular component to be added to the library.
+title: "[Component Request]: "
+labels: ["new-component", "enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a new component 🙌  
+        Please provide as much detail as possible so we can evaluate your request.
+
+  - type: input
+    id: component_name
+    attributes:
+      label: Component name
+      description: What would you call this component?
+      placeholder: e.g. ngx-modal, ngx-tooltip
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What problem does this component solve? Why is it useful?
+      placeholder: Please describe the purpose of this component.
+    validations:
+      required: true
+
+  - type: textarea
+    id: features
+    attributes:
+      label: Expected features
+      description: List the main features or behavior the component should have.
+      placeholder: e.g. Accessible, customizable size, works with Angular signals…
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or existing solutions
+      description: Do you know other libraries or components that solve this problem? How does your idea differ?
+      placeholder: e.g. Angular Material dialog, Bootstrap modal
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why do you need this component?
+      options:
+        - label: General usefulness for the community
+        - label: Specific project need
+        - label: Learning/experiment
