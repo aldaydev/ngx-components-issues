@@ -38,15 +38,6 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives or existing solutions
-      description: Do you know other libraries or components that solve this problem? How does your idea differ?
-      placeholder: e.g. Angular Material dialog, Bootstrap modal
-    validations:
-      required: false
-
   - type: checkboxes
     id: motivation
     attributes:
