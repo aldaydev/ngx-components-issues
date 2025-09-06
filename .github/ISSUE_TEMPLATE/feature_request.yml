@@ -13,6 +13,7 @@ body:
       description: Select the component this feature is for
       options:
         - menu-toggler
+        - theme-toggler
   - type: textarea
     id: description
     attributes:
