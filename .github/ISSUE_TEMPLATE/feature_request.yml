@@ -14,6 +14,7 @@ body:
       options:
         - menu-toggler
         - theme-toggler
+        - toggler
   - type: textarea
     id: description
     attributes:
