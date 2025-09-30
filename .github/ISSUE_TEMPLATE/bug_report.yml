@@ -16,6 +16,7 @@ body:
         - theme-toggler
         - toggler
         - mini-slider
+        - full-carousel
   - type: textarea
     id: description
     attributes:
